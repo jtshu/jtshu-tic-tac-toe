@@ -19,6 +19,7 @@ public class GameBoard {
         playerWinState = 0;
     }
 
+    // TODO: add error handling for bad inputs
     // main function for logic and calling other methods
     public void startGame() {
         int square;
