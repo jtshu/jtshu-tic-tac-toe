@@ -162,6 +162,7 @@ public class GameBoard {
             playerWinState = 2;
         }
 
+        // tie game if no one has won and all 9 squares have been occupied
         if (playerWinState == 0 && turnCounter == 9) {
             playerWinState = 3;
         }
